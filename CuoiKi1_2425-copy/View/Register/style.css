@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+#head1 img {
+  width: 5em;
+  height: auto;
+}
+#head2 a {
+  text-decoration: none;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  font-weight: bold;
+  color: red;
+  font-size: 35px;
+  margin-right: 10px;
+  animation: logoAnimation 2s infinite;
+}
+
+.logo-text a {
+  font-size: 25px;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.logo-text a:hover {
+  color: #158791;
+}
+
+/* Main styles */
+main {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main1 {
+  width: 50%;
+}
+/* Left side of main */
+.main1 img {
+  width: 30em;
+  height: auto;
+}
+
+/* Right side of main */
+.main2 {
+  background-color: burlywood;
+  width: 30em;
+
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.main2 .head {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  margin: 30px auto;
+  color: #8b4513;
+}
+
+/* Border styles for registration form */
+.main2 .middle {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Input styles */
+.main2 .middle input[type="text"],
+.main2 .middle input[type="password"],
+.main2 .middle input[type="captcha"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.main2 .middle input[type="submit"] {
+  width: 100%;
+  background-color: #8b4513;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+.main2 .middle input[type="submit"]:hover {
+  background-color: #3330c8;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 100px;
+  background-color: #eccbb3;
+  display: flex;
+}
+
+footer p {
+  margin: 20px 20px;
+}
